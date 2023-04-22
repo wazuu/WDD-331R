@@ -42,7 +42,9 @@ a:hover {
 /* nav links */
 nav a {
   color: var(--main-white);
-  text-align: center;
+  text-align: right;
+  display: inline;
+
 }
 
 nav a:hover {
@@ -93,6 +95,7 @@ article {
 .post-date {
   color: gray;
   margin: 1rem auto -1rem;
+  text-align: left;
 }
 
 .post-content {

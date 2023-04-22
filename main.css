@@ -20,7 +20,8 @@ h2 {
 
 ul {
   list-style: none;
-  text-align: center;
+  text-align: right;
+  display: inline;
 }
 
 /* links */
@@ -93,9 +94,13 @@ article {
 }
 
 .post-date {
-  color: gray;
+  color: black;
   margin: 1rem auto -1rem;
   text-align: left;
+  font-size: medium;
+  font-weight: bold;
+
+  
 }
 
 .post-content {

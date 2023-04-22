@@ -29,7 +29,7 @@ a,
 a:visited {
   color: var(--main-blue);
   text-decoration: none;
-  text-decoration: center;
+  
 }
 
 a:active {

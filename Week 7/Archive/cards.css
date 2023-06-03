@@ -1,5 +1,13 @@
-.card-grid {
+.row-grid {
     display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.col-gird {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }

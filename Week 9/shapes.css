@@ -1,0 +1,21 @@
+.oddshape {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    border: 2px solid red;
+    margin-left: 25px;
+  }
+  
+  .oddshape::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: -2px;
+    width: 40px;
+    height: 100%;
+    border: inherit;
+    background-color: inherit;
+    border-right-width: 0;
+    transform: skewX(-30deg);
+  }
